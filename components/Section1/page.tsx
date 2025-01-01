@@ -21,7 +21,7 @@ export default function Section1() {
             </div>
           </div>
           <div className="w-full h-[681px]">
-            <Image src={"/png-cover.svg"} alt="cover" width={416} height={681} className="object-cover mt-[4.5rem]"></Image>
+            <Image src={"/png-cover.svg"} alt="cover" width={416} height={681} className="object-cover mt-[4.7rem]"></Image>
           </div>
         </div>
       </div>

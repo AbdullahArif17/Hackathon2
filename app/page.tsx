@@ -4,6 +4,7 @@ import Section from "@/components/Section/page"
 import Item from "@/components/Items/page"
 import Section1 from "@/components/Section1/page"
 import Section2 from "@/components/Section2/page"
+import Blog from "@/components/Blog/page"
 
 export default function page() {
   return (
@@ -14,6 +15,7 @@ export default function page() {
       <Item />
       <Section1 />
       <Section2 />
+      <Blog />
     </div>
   )
 }
