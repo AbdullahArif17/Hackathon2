@@ -22,7 +22,7 @@ export default function Item() {
           "/product-cover-5 (1).svg",
           "/product-cover-5 (2).svg",
           "/product-cover-5 (3).svg",
-          "/filter.svg",
+          "/product-cover-5 (4).svg",
         ].map((src, index) => (
           <div
             key={index}

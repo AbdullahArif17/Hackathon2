@@ -1,9 +1,9 @@
 import Header from "@/components/Header/page"
 import Main from "@/components/Main/page"
-import Section from "@/components/Sections/page"
+import Section from "@/components/Section/page"
 import Item from "@/components/Items/page"
 import Section1 from "@/components/Section1/page"
-
+import Section2 from "@/components/Section2/page"
 
 export default function page() {
   return (
@@ -13,7 +13,7 @@ export default function page() {
       <Section />
       <Item />
       <Section1 />
-
+      <Section2 />
     </div>
   )
 }

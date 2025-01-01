@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function Main() {
   return (
+    <div>
     <div className="relative h-[753px] w-full">
       <Image
         src="/main.svg"
         alt="Main"
         layout="fill"
         className="z-0 object-cover"
-        priority
       />
 
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center m-9 text-white">
@@ -27,6 +27,7 @@ export default function Main() {
           </button>
         </div>
       </div>
+    </div>
     </div>
   );
 }
