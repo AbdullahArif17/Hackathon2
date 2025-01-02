@@ -1,3 +1,4 @@
+import { FaCalendarAlt } from 'react-icons/fa';
 import Image from "next/image";
 
 export default function Blog() {
@@ -17,42 +18,53 @@ export default function Blog() {
             </p>
           </div>
 
-
           <div className="h-auto gap-[30px] w-full flex flex-col mt-16">
-  <div className="flex flex-col items-center w-full h-auto">
-    <div className="w-[330px] h-auto shadow-[0px_2px_4px_0px_#0000001A] bg-white relative">
-      <Image
-        src={"/unsplash_gEZkP23pLZ4.svg"}
-        alt={"blog1"}
-        height={300}
-        width={330}
-        className="w-full h-auto"
-      />
-      <div className="bg-[#E74040] w-[58px] h-[24px] absolute top-[20px] left-[20px] px-[10px] m-4 rounded-tl-[3px] shadow-[0px_2px_4px_0px_#0000001A]">
-        <h6 className="text-white text-[14px] font-bold leading-[24px] tracking-[0.2px] text-center">
-          NEW
-        </h6>
-      </div>
-    </div>
+            <div className="flex flex-col items-center w-full h-auto">
+              <div className="w-[330px] h-auto bg-white relative">
+                <Image
+                  src={"/unsplash_gEZkP23pLZ4.svg"}
+                  alt={"blog1"}
+                  height={300}
+                  width={330}
+                  className="w-full h-auto"
+                />
+                <div className="bg-[#E74040] w-[58px] h-[24px] absolute top-[20px] left-[20px] px-[10px] m-4 rounded-tl-[3px] shadow-[0px_2px_4px_0px_#0000001A]">
+                  <h6 className="text-white text-[14px] font-bold leading-[24px] tracking-[0.2px] text-center">
+                    NEW
+                  </h6>
+                </div>
+              </div>
 
-    <div className="w-[330px] h-[306px] p-[25px_25px_35px_25px] shadow-[0px_2px_4px_0px_#0000001A] gap-[10px] flex flex-col justify-between">
-      <div className="flex flex-row w-[159px] h-[16px] gap-[15px]">
-        <h6 className="text-[#8EC2F2] text-[12px] font-normal leading-[16px] tracking-[0.2px] w-[56px] h-[16px] text-left">
-          Google
-        </h6>
-        <h6 className="text-[#737373] text-[12px] font-normal leading-[16px] tracking-[0.2px] w-[56px] h-[16px] text-left">
-         Trending
-        </h6>
-        <h6 className="text-[#737373] text-[12px] font-normal leading-[16px] tracking-[0.2px] w-[56px] h-[16px] text-left">
-          New
-        </h6>
-      </div>
-    </div>
-  </div>
-</div>
+              <div className="w-[330px] h-[306px] p-[25px_25px_35px_25px] shadow-[0px_2px_4px_0px_#0000001A] gap-[10px] flex flex-col">
+                <div className="flex flex-row w-[159px] h-[16px] gap-[15px]">
+                  <h6 className="text-[#8EC2F2] text-[12px] font-normal leading-[16px] tracking-[0.2px] w-[56px] h-[16px] text-left">
+                    Google
+                  </h6>
+                  <h6 className="text-[#737373] text-[12px] font-normal leading-[16px] tracking-[0.2px] w-[56px] h-[16px] text-left">
+                    Trending
+                  </h6>
+                  <h6 className="text-[#737373] text-[12px] font-normal leading-[16px] tracking-[0.2px] w-[56px] h-[16px] text-left">
+                    New
+                  </h6>
+                </div>
+                <h4 className="text-[#252B42] w-[247px] h-[60px] text-[20px] font-normal leading-[30px] tracking-[0.2px] text-left">
+                  Loudest à la Madison #1 (L'integral)
+                </h4>
+                <p className="text-[#737373] ">
+                  We focus on ergonomics and meeting you where you work. It's
+                  only a keystroke away.
+                </p>
+                <div className="w-full max-w-[280px] h-auto min-h-[46px] px-0 py-[15px] flex justify-between">
+                  <div className="w-auto max-w-[98px] h-auto max-h-[16px] gap-[5px]">
+                  <FaCalendarAlt size={16} className='bg-blue-400'/>
 
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+    </div>
   );
 }
